@@ -1,7 +1,14 @@
-#download{
-  justify-content: center;
-    position: absolute;
-    padding: 0;
+
+.active > .nav-link::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  background-color: goldenrod;
+  width: 100%;
+  height: 3px;
+  bottom: -3px;
+  transform: scaleX(1);
+  transform-origin: center;
 }
 
 
@@ -9,17 +16,17 @@
 .navbar{
   padding-bottom: 0;
   background-color: rgba(47, 79, 79);
+  padding-bottom: 8px;
 }
 
 .hamburger-menu{
-    position: fixed;
-    top: 2%;
-    right: 2%;
+    position: absolute;
+    right: 3%;
     display: flex;
     border-radius: 4px;
     cursor: pointer;
     z-index: 10000;
-    background-color: rgba(47, 79, 79, 0.904);
+    background: transparent;
     padding: 1vh;
   }
   
@@ -81,7 +88,6 @@
       height: initial;
       font-size: x-large;
       font-weight: 500;
-      padding-bottom: 4px;
       margin: 0;
     }
   
@@ -104,7 +110,7 @@
       left: 0;
       background-color: rgba(255, 255, 255, .7);
       width: 100%;
-      height: 2px;
+      height: 3px;
       bottom: -3px;
       transform: scaleX(0);
       transform-origin: center;

@@ -1,5 +1,5 @@
 .section{
-  background: linear-gradient(darkslategray,rgba(47, 79, 79, 0.158)), url(../../assets/bg2.jpg);
+  background: linear-gradient(darkslategray,rgba(47, 79, 79, 0.3)), url(../../assets/bg2.jpg);
   height: 100vh;
   background-size: cover;
   display: flex;

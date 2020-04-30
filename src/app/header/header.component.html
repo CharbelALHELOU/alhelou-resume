@@ -1,24 +1,24 @@
 <header id="header" >
-    <div class="hamburger-menu">
-        <i class="fas fa-bars" (click)="clicked()" [class.open]='statusOpen'></i>
-        <i class="fas fa-times" (click)="clicked()" [class.open]='statusOpen'></i>
-    </div>
     <nav class="navbar fixed-top" id="navBar">
+          <div class="hamburger-menu">
+            <i class="fas fa-bars" (click)="clicked()" [class.open]='statusOpen'></i>
+            <i class="fas fa-times" (click)="clicked()" [class.open]='statusOpen'></i>
+        </div>
         <a class="btn" href="#" download="alhelou">Download</a>
-          <ul class="nav-list text-center" [class.open]='statusOpen' align='center'>
+          <ul class="nav-list text-center" (click)="clicked()" [class.open]='statusOpen' align='center'>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href='#about'>About</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" hrefActive="active">
                 <a class="nav-link" href='#skills'>Skills</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" hrefActive="active">
                 <a class="nav-link" href='#portofolio'>Portofolio</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" hrefActive="active">
                 <a class="nav-link" href='#experience'>Experience</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" hrefActive="active">
                 <a class="nav-link" href='#contact'>Contact</a>
               </li>
           </ul>
