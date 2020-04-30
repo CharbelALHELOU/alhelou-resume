@@ -11,7 +11,6 @@ export class TypewriterComponent implements OnInit {
 
   ngOnInit(): void {
       this.typingCallback(this);
-    
   }
 
   @Input() message: string;

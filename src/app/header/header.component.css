@@ -14,7 +14,6 @@
 
 /* header*/
 .navbar{
-  padding-bottom: 0;
   background-color: rgba(47, 79, 79);
   padding-bottom: 8px;
 }
@@ -80,7 +79,7 @@
     }
     
     .nav-list{
-      position: fixed;
+      background: transparent;
       flex-direction: row;
       opacity: initial;
       transform: initial;
@@ -121,3 +120,15 @@
       transform: scaleX(1);
     }
   }
+
+
+.sticky {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  z-index: 9999;
+  transition: all 1s ease;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+  
