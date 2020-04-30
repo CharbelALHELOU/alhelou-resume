@@ -13,10 +13,6 @@
 
 
 /* header*/
-.navbar{
-  background-color: rgba(47, 79, 79);
-  padding-bottom: 8px;
-}
 
 .hamburger-menu{
     position: absolute;
@@ -79,6 +75,8 @@
     }
     
     .nav-list{
+      padding-top: 0px;
+      position: absolute;
       background: transparent;
       flex-direction: row;
       opacity: initial;

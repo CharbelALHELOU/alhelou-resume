@@ -19,14 +19,22 @@ export class HeaderComponent implements OnInit {
     this.statusOpen = !this.statusOpen;
   };
 
-  myFunction() {
-    if (window.pageYOffset > document.getElementById("navBar").offsetTop) {
+  passedBy(idOfElement: string) {
+    let Otop = document.getElementById(idOfElement).offsetTop;
+    if (window.pageYOffset >= Otop && window.pageYOffset < (Otop + window.innerHeight) ) {
       return true;
     } else {
       return false;
     }
   }
 
+  stickyNavBar() {
+    if (window.pageYOffset > document.getElementById('navBar').offsetTop ) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 
  
 }
