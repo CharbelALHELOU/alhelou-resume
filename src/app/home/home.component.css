@@ -1,5 +1,5 @@
 .section{
-  background: linear-gradient(darkslategray,rgba(47, 79, 79, 0.3)), url(../../assets/bg2.jpg);
+  background-color: #263145;
   height: 100vh;
   background-size: cover;
   display: flex;
@@ -25,5 +25,5 @@
 #avatar{
     position: relative;
     align-items: center;
-    max-height: 40vh;
+    max-height: 37vh;
 }

@@ -7,7 +7,7 @@ html {
 
 
 a{
-  color: white !important;
+  color: lightgray !important;
 }
 
 body{
@@ -17,7 +17,7 @@ body{
 .btn{
   widows: 100px;
   padding: 1px 12px 1px 12px!important;
-  border: 1px solid;
+  border: 1px solid lightgray;
   position: relative;
   overflow: hidden;
   z-index: 999;
@@ -40,3 +40,16 @@ body{
 }
 
 
+section{
+  justify-content: center;
+  align-content: center;
+  width: 100vw;
+}
+
+.center{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
