@@ -1,29 +1,31 @@
 .section{
-  background-color: #263145;
   height: 100vh;
   background-size: cover;
   display: flex;
   align-items: center;
+    
 }
 
 @keyframes shadow-pulse
 {
   0% {
-    box-shadow: 0 0 0 0px rgba(255, 30, 0, 0.3);
+    box-shadow: 0 0 0 0px rgba(255, 217, 0, 0.171);
   }
   100% {
-    box-shadow: 0 0 0 2vh rgba(255, 123, 0, 0.2);
+    box-shadow: 0 0 0 2vh rgba(218, 165, 32, 0.199);
   }
-}
-
-.pulse
-{
-  border-radius: 50%;
-  animation: shadow-pulse 950ms infinite;
 }
 
 #avatar{
     position: relative;
     align-items: center;
     max-height: 37vh;
+    border-radius: 50%;
+    animation: shadow-pulse 950ms infinite;
+}
+
+h1{
+  font-size: 2vh;
+  padding-top: 2vh;
+  color: goldenrod;
 }

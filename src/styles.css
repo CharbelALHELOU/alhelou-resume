@@ -12,7 +12,11 @@ a{
 
 body{
     font-family: 'Jura', sans-serif;
+    background: linear-gradient(#263145be,#263145ad), url(assets/bg2.jpeg);
+    background-attachment:fixed;    
+    overflow: overlay;
   }
+
 
 .btn{
   widows: 100px;
@@ -52,4 +56,10 @@ section{
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;
+  display: none;
 }

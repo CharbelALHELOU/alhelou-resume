@@ -129,4 +129,9 @@
 .sticky + .content {
   padding-top: 102px;
 }
-  
+
+@media (max-width: 768px){
+  #download{
+    font-size: 4vw;
+  }
+}

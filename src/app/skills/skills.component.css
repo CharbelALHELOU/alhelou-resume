@@ -1,3 +1,11 @@
 .section{
-    height: 50vh;
+    height: 100vh;
+    padding: 8px 2%;
+}
+
+.container-fluid{
+    background-color: rgba(255, 255, 255,1);
+    height: 100%;
+    z-index: 3;
+    border-radius: 10px;
 }
