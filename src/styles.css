@@ -24,7 +24,7 @@ body{
   border: 1px solid lightgray;
   position: relative;
   overflow: hidden;
-  z-index: 999;
+  z-index: 900;
 }
 
 .btn::before{
