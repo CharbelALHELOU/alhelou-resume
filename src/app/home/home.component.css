@@ -22,6 +22,7 @@
     max-height: 37vh;
     border-radius: 50%;
     animation: shadow-pulse 950ms infinite;
+    border: 2px solid #263145;
 }
 
 h1{
