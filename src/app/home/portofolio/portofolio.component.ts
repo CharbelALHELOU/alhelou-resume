@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PortofolioItem } from '../models/portofolioItem';
+import { PortofolioItem } from '../../models/portofolioItem';
 import { Title } from '@angular/platform-browser';
 
 @Component({

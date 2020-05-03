@@ -6,12 +6,13 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { PortofolioComponent } from './portofolio/portofolio.component';
-import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
-import { ExperienceComponent } from './experience/experience.component';
-import { SkillsComponent } from './skills/skills.component';
+import { PortofolioComponent } from './home/portofolio/portofolio.component';
+import { AboutComponent } from './home/about/about.component';
+import { ContactComponent } from './home/contact/contact.component';
+import { ExperienceComponent } from './home/experience/experience.component';
+import { SkillsComponent } from './home/skills/skills.component';
 import { TypewriterComponent } from './typewriter/typewriter.component';
+import { MoreComponent } from './home/portofolio/more/more.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { TypewriterComponent } from './typewriter/typewriter.component';
     ContactComponent,
     ExperienceComponent,
     SkillsComponent,
-    TypewriterComponent
+    TypewriterComponent,
+    MoreComponent
   ],
   imports: [
     BrowserModule,
