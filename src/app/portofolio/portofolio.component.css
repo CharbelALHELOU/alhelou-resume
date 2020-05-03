@@ -14,6 +14,7 @@
   cursor: pointer;
 }
 
+
 .portfolio-img {
   height: 45vh;
   border-radius: 10px;
@@ -65,4 +66,30 @@ h1{
   color: lightgray;
   margin-bottom: 10px;
   font-size: 8vw;
+}
+
+i{
+  position: absolute;
+  text-align: center;
+  opacity: 0;
+  color: goldenrod;
+  width: 100%;
+  left: 0;
+  font-size: 20vh;
+}
+
+.portfolio-item:hover{
+    opacity: 0.7;
+  }
+
+.portfolio-item:hover > i{
+  opacity: 0.8;
+}
+
+.portfolio-item.open:hover > i{
+  opacity: 0;
+}
+
+.portfolio-item.open:hover{
+  opacity: 1;
 }
