@@ -1,7 +1,6 @@
-.section{
-  padding: 10vh 2vh;
-  display: flex;
-  align-items: center;   
+.section{ 
+  width: 100%;
+  height: 100vh;
 }
 
 @keyframes shadow-pulse
@@ -17,7 +16,7 @@
 #avatar{
     position: relative;
     align-items: center;
-    max-height: 37vh;
+    max-height: 35vh;
     border-radius: 50%;
     animation: shadow-pulse 950ms infinite;
     border: 2px solid #263145;
@@ -25,10 +24,29 @@
 
 p{
   color: goldenrod;
-  padding: 0 20%;
+  padding: 0 3vw;
 }
 
-#caption{
-  display: flex;
-  flex-direction: column;
+.caption{
+  text-align: center;
+}
+
+
+.container-fluid{
+  position: relative;
+  top: 50%;
+  padding: 0;
+  transform: translateY(-50%);
+}
+
+
+.title{
+  color: white;
+  font-size: xx-large;
+  text-transform: uppercase;
+}
+.container{
+  padding: 2vh 0;
+  width: 100vw;
+  margin: 0;
 }

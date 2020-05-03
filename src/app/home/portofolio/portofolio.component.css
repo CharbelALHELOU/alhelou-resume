@@ -1,6 +1,5 @@
 .section{
   background: transparent;
-  padding: 8px 2%;
 }
 
 .portfolio-item{
@@ -95,17 +94,15 @@ h1{
   opacity: 1;
 }
 
-.more{
+.moreIcon{
   width: 100%;
-  font-size: 20vh;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  font-size: 10vh;
   text-align: center;
+  color: lightgray;
 }
 
-.more > a{
-  color: aliceblue !important;
+.moreIcon > i:hover{
+  cursor: pointer;
+  opacity: .7;
+  color: orange;
 }

@@ -1,4 +1,4 @@
-<section class="section" id="portfolio">
+<section class="section p-5" id="portfolio">
     <div class="container">
         <div class="row text-center">
             <div class="col-12">
@@ -6,8 +6,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xl-4 col-sm-6 mb-4" *ngFor="let item of items">
-                <div class="portfolio-item" (click)="changeStatus(item.id)" id="{{item.id}}" [class.open]='status[item.id]'>
+            <div class="col-xl-4 mb-4" *ngFor="let item of items; let first = first; let index = index;">
+                <div *ngIf="first || index===1 || index ===2 || moreStatus" class="portfolio-item" (click)="changeStatus(item.id)" id="{{item.id}}" [class.open]='status[item.id]'>
                     <img class="portfolio-img" src="{{item.img}}" alt=""/>
                     <div class="portfolio-title">
                         {{item.title}}
@@ -23,9 +23,9 @@
                     
                 </div>
             </div>
-            <div class="col-xl-4 col-sm-6 mb-4">
-                <div class="container more">
-                    <a routerLink="/portfolio">   <i class="fas fa-ellipsis-h"></i></a>
+            <div class="col-12 mb-4">
+                <div class="moreIcon">
+                    <i (click)="moreStatus=!moreStatus;" [ngClass]="{'fas': true, 'fa-arrow-down':!moreStatus,'fa-arrow-up': moreStatus}"></i>
                 </div>
             </div>
         </div>

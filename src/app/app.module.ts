@@ -10,9 +10,8 @@ import { PortofolioComponent } from './home/portofolio/portofolio.component';
 import { AboutComponent } from './home/about/about.component';
 import { ContactComponent } from './home/contact/contact.component';
 import { ExperienceComponent } from './home/experience/experience.component';
-import { SkillsComponent } from './home/skills/skills.component';
 import { TypewriterComponent } from './typewriter/typewriter.component';
-import { MoreComponent } from './home/portofolio/more/more.component';
+import { EducationComponent } from './home/education/education.component';
 
 
 @NgModule({
@@ -25,9 +24,8 @@ import { MoreComponent } from './home/portofolio/more/more.component';
     AboutComponent,
     ContactComponent,
     ExperienceComponent,
-    SkillsComponent,
     TypewriterComponent,
-    MoreComponent
+    EducationComponent
   ],
   imports: [
     BrowserModule,

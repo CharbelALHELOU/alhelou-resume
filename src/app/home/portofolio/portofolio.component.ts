@@ -11,6 +11,7 @@ export class PortofolioComponent implements OnInit {
 
   items : PortofolioItem[];
   status : boolean[] = [false,false,false];
+  moreStatus: boolean = false;
 
   constructor() { 
     this.items= [
@@ -38,14 +39,28 @@ export class PortofolioComponent implements OnInit {
       {
         id:3,
         description:"Here we have a small description of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
-        title: "Title 4",
+        title: "Title 3",
         img: "../../assets/bg2.jpg",
         url: "https://github.com/CharbelALHELOU/alhelou-resume"
       },
       {
         id:4,
         description:"Here we have a small description of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
-        title: "Title 5",
+        title: "Title 3",
+        img: "../../assets/bg2.jpg",
+        url: "https://github.com/CharbelALHELOU/alhelou-resume"
+      },
+      {
+        id:5,
+        description:"Here we have a small description of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
+        title: "Title 3",
+        img: "../../assets/bg2.jpg",
+        url: "https://github.com/CharbelALHELOU/alhelou-resume"
+      },
+      {
+        id:6,
+        description:"Here we have a small description of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
+        title: "Title 3",
         img: "../../assets/bg2.jpg",
         url: "https://github.com/CharbelALHELOU/alhelou-resume"
       }
@@ -63,5 +78,4 @@ export class PortofolioComponent implements OnInit {
     console.log(i);
     this.status[i] = !this.status[i] ;
   }
-
 }

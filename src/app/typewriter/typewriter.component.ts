@@ -24,4 +24,6 @@ export class TypewriterComponent implements OnInit {
     } else {  }
     setTimeout(that.typingCallback, 100, that);
   }
+
+  
 }

@@ -29,7 +29,7 @@ export class HeaderComponent implements OnInit {
   }
 
   stickyNavBar() {
-    if (window.pageYOffset > document.getElementById('navBar').offsetTop ) {
+    if (window.pageYOffset > document.getElementById('navBar').offsetTop) {
       return true;
     } else {
       return false;
