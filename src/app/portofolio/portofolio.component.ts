@@ -16,35 +16,35 @@ export class PortofolioComponent implements OnInit {
     this.items= [
       {
         id:0,
-        description:"This is a small description of the project ou can tell whatever you want like the language the dates the client etc ... also there s a link for the project",
+        description:"Here we have a small description of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
         title: "Title 1",
         img: "../../assets/bg2.jpg",
         url: "https://github.com/CharbelALHELOU/alhelou-resume"
       },
       {
         id:1,
-        description:"This is a small description of the project ou can tell whatever you want like the language the dates the client etc ... also there s a link for the project",
+        description:"Here we have a small description of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
         title: "Title 2",
         img: "../../assets/bg2.jpg",
         url: "https://github.com/CharbelALHELOU/alhelou-resume"
       },
       {
         id:2,
-        description:"This is a small description of the project ou can tell whatever you want like the language the dates the client etc ... also there s a link for the project",
+        description:"Here we have a small description of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
         title: "Title 3",
         img: "../../assets/bg2.jpg",
         url: "https://github.com/CharbelALHELOU/alhelou-resume"
       },
       {
         id:3,
-        description:"This is a small description of the project ou can tell whatever you want like the language the dates the client etc ... also there s a link for the project",
+        description:"Here we have a small description of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
         title: "Title 4",
         img: "../../assets/bg2.jpg",
         url: "https://github.com/CharbelALHELOU/alhelou-resume"
       },
       {
         id:4,
-        description:"This is a small description of the project ou can tell whatever you want like the language the dates the client etc ... also there s a link for the project",
+        description:"Here we have a small description of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
         title: "Title 5",
         img: "../../assets/bg2.jpg",
         url: "https://github.com/CharbelALHELOU/alhelou-resume"
