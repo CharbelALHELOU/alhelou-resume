@@ -5,7 +5,7 @@
 
 .portfolio-item{
   background-color:white;
-  border-radius: 10px;
+  border-radius: 20px;
   justify-content: center;
   align-content: center;
   display: flex;
@@ -67,7 +67,7 @@ h1{
   font-size: 8vw;
 }
 
-i{
+.portfolio-item > i{
   position: absolute;
   text-align: center;
   opacity: 0;
@@ -93,4 +93,19 @@ i{
 
 .portfolio-item.open:hover{
   opacity: 1;
+}
+
+.more{
+  width: 100%;
+  font-size: 20vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.more > a{
+  color: aliceblue !important;
 }
