@@ -6,7 +6,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-sm-6 mb-4" *ngFor="let item of items">
+            <div class="col-xl-4 col-sm-6 mb-4" *ngFor="let item of items">
                 <div class="portfolio-item" (click)="changeStatus(item.id)" id="{{item.id}}" [class.open]='status[item.id]'>
                     <img class="portfolio-img" src="{{item.img}}" alt=""/>
                     <div class="portfolio-title">

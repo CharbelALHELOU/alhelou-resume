@@ -1,16 +1,7 @@
-.container-fluid{
-    font-size: 4vh;
+h1{
     text-transform: uppercase;
     opacity: 0.75;
-    height: 8vh;
-    padding-top: 8px;
+    padding-top: 2vh;
+    margin: 0;
 }
 
-@media (min-width: 1300px){
-    .container-fluid{
-        font-size: 5vh;
-        text-transform: uppercase;
-        opacity: 0.75;
-        height: 8vh;
-    }
-}

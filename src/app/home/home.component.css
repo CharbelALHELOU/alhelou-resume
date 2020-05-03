@@ -25,8 +25,11 @@
     border: 2px solid #263145;
 }
 
-h1{
-  font-size: 2vh;
-  padding-top: 1vh;
+h5{
   color: goldenrod;
+}
+
+#caption{
+  display: flex;
+  flex-direction: column;
 }
