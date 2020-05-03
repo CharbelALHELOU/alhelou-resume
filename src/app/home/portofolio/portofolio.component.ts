@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { PortofolioItem } from '../../models/portofolioItem';
 import { Title } from '@angular/platform-browser';
 
@@ -9,63 +9,11 @@ import { Title } from '@angular/platform-browser';
 })
 export class PortofolioComponent implements OnInit {
 
-  items : PortofolioItem[];
+  @Input()  items : PortofolioItem[];
   status : boolean[] = [false,false,false];
   moreStatus: boolean = false;
 
-  constructor() { 
-    this.items= [
-      {
-        id:0,
-        description:"Here we have a small description of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
-        title: "Title 1",
-        img: "../../assets/bg2.jpg",
-        url: "https://github.com/CharbelALHELOU/alhelou-resume"
-      },
-      {
-        id:1,
-        description:"Here we have a small description of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
-        title: "Title 2",
-        img: "../../assets/bg2.jpg",
-        url: "https://github.com/CharbelALHELOU/alhelou-resume"
-      },
-      {
-        id:2,
-        description:"Here we have a small description of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
-        title: "Title 3",
-        img: "../../assets/bg2.jpg",
-        url: "https://github.com/CharbelALHELOU/alhelou-resume"
-      },
-      {
-        id:3,
-        description:"Here we have a small description of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
-        title: "Title 3",
-        img: "../../assets/bg2.jpg",
-        url: "https://github.com/CharbelALHELOU/alhelou-resume"
-      },
-      {
-        id:4,
-        description:"Here we have a small description of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
-        title: "Title 3",
-        img: "../../assets/bg2.jpg",
-        url: "https://github.com/CharbelALHELOU/alhelou-resume"
-      },
-      {
-        id:5,
-        description:"Here we have a small description of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
-        title: "Title 3",
-        img: "../../assets/bg2.jpg",
-        url: "https://github.com/CharbelALHELOU/alhelou-resume"
-      },
-      {
-        id:6,
-        description:"Here we have a small description of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
-        title: "Title 3",
-        img: "../../assets/bg2.jpg",
-        url: "https://github.com/CharbelALHELOU/alhelou-resume"
-      }
-    ]
-    
+  constructor() {     
   }
 
   

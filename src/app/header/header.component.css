@@ -133,3 +133,14 @@ a{
 #navBar{
   padding-bottom: 12px;
 }
+
+.sticky {
+  background-color: rgba(0, 0, 0, 0.61) !important;
+  z-index: 999;
+  transition: all 900ms ease;
+  }
+  
+  .sticky + .content {
+  padding-top: 102px;
+  }
+  

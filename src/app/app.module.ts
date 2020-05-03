@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {HttpClientModule} from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -12,6 +12,7 @@ import { ContactComponent } from './home/contact/contact.component';
 import { ExperienceComponent } from './home/experience/experience.component';
 import { TypewriterComponent } from './typewriter/typewriter.component';
 import { EducationComponent } from './home/education/education.component';
+import { PortfolioDetailsComponent } from './home/portofolio/portfolio-details/portfolio-details.component';
 
 
 @NgModule({
@@ -25,11 +26,13 @@ import { EducationComponent } from './home/education/education.component';
     ContactComponent,
     ExperienceComponent,
     TypewriterComponent,
-    EducationComponent
+    EducationComponent,
+    PortfolioDetailsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

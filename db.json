@@ -1,0 +1,53 @@
+{
+    "items":[
+        {
+          "id":0,
+          "description":"Here we have a small descript of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
+          "title": "Title 1",
+          "img": "../../assets/bg2.jpg",
+          "url": "https://github.com/CharbelALHELOU/alhelou-resume"
+        },
+        {
+          "id":1,
+          "description":"Here we have a small descript of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
+          "title": "Title 2",
+          "img": "../../assets/bg.jpeg",
+          "url": "https://github.com/CharbelALHELOU/alhelou-resume"
+        },
+        {
+          "id":2,
+          "description":"Here we have a small descript of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
+          "title": "Title 3",
+          "img": "../../assets/bg2.jpeg",
+          "url": "https://github.com/CharbelALHELOU/alhelou-resume"
+        },
+        {
+          "id":3,
+          "description":"Here we have a small descript of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
+          "title": "Title 3",
+          "img": "../../assets/download.jpeg",
+          "url": "https://github.com/CharbelALHELOU/alhelou-resume"
+        },
+        {
+          "id":4,
+          "description":"Here we have a small descript of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
+          "title": "Title 3",
+          "img": "../../assets/bg2.jpg",
+          "url": "https://github.com/CharbelALHELOU/alhelou-resume"
+        },
+        {
+          "id":5,
+          "description":"Here we have a small descript of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
+          "title": "Title 3",
+          "img": "../../assets/bg2.jpg",
+          "url": "https://github.com/CharbelALHELOU/alhelou-resume"
+        },
+        {
+          "id":6,
+          "description":"Here we have a small descript of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
+          "title": "Title 3",
+          "img": "../../assets/bg2.jpg",
+          "url": "https://github.com/CharbelALHELOU/alhelou-resume"
+        }
+      ]
+}
