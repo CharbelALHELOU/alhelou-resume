@@ -1,3 +1,21 @@
-<div class="section" id="porto">
-    hello
-</div>
+<section class="section" id="portfolio">
+    <div class="container">
+        <div class="text-center">
+            <h1 class="text-uppercase">Portfolio</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 mb-4" *ngFor="let item of items">
+                <div class="portfolio-item" (click)="changeStatus(item.id)" id="{{item.id}}" [class.open]='status[item.id]'>
+                    <img class="portfolio-img" src="{{item.img}}" alt=""/>
+                    <div class="portfolio-title">
+                        {{item.title}}
+                    </div>
+                    <div class="portfolio-description ">
+                        <div class="portfolio-title">{{item.title}}</div>
+                        {{item.description}}<br>
+                        <a class="btn" href="{{item.url}}" >GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

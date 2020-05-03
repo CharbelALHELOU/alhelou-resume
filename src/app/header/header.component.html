@@ -1,26 +1,27 @@
 <header id="header" >
     <nav class="navbar fixed-top my-auto" [class.sticky]="stickyNavBar()" id="navBar">
-          <div class="hamburger-menu">
-            <i class="fas fa-bars" (click)="clicked()" [class.open]='statusOpen'></i>
-            <i class="fas fa-times" (click)="clicked()" [class.open]='statusOpen'></i>
+      <a class="btn" href="#" download="alhelou" id="download" >Download</a>
+        <div class="hamburger-menu">
+          <i class="fas fa-bars" (click)="clicked()" [class.open]='statusOpen'></i>
+          <i class="fas fa-times" (click)="clicked()" [class.open]='statusOpen'></i>
         </div>
-        <a class="btn" href="#" download="alhelou" id="download" >Download</a>
-          <ul class="nav-list text-center" (click)="clicked()" [class.open]='statusOpen' align='center'>
-              <li class="nav-item" [class.active]="passedBy('about')">
-                <a class="nav-link"  href='#about'>About</a>
-              </li>
-              <li class="nav-item" [class.active]="passedBy('skills')">
-                <a class="nav-link" href='#skills'>Skills</a>
-              </li>
-              <li class="nav-item" [class.active]="passedBy('portofolio')">
-                <a class="nav-link" href='#portofolio'>Portofolio</a>
-              </li>
-              <li class="nav-item" [class.active]="passedBy('experience')">
-                <a class="nav-link" href='#experience'>Experience</a>
-              </li>
-              <li class="nav-item" [class.active]="passedBy('contact')">
-                <a class="nav-link" href='#contact'>Contact</a>
-              </li>
-          </ul>
+        
+        <ul class="nav-list text-center" (click)="clicked()" [class.open]='statusOpen' align='center'>
+            <li class="nav-item" [class.active]="passedBy('about')">
+              <a class="nav-link"  href='#about'>About</a>
+            </li>
+            <li class="nav-item" [class.active]="passedBy('skills')">
+              <a class="nav-link" href='#skills'>Skills</a>
+            </li>
+            <li class="nav-item" [class.active]="passedBy('portofolio')">
+              <a class="nav-link" href='#portofolio'>Portofolio</a>
+            </li>
+            <li class="nav-item" [class.active]="passedBy('experience')">
+              <a class="nav-link" href='#experience'>Experience</a>
+            </li>
+            <li class="nav-item" [class.active]="passedBy('contact')">
+              <a class="nav-link" href='#contact'>Contact</a>
+            </li>
+        </ul>
     </nav>
 </header>

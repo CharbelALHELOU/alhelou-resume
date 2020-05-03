@@ -1,5 +1,67 @@
-#porto{
-    background: transparent;
-    background-size: cover;
-    height: 100vh;
+.section{
+  background: transparent;
+  padding: 8px 2%;
+}
+
+.portfolio-item{
+  background-color:white;
+  border-radius: 10px;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  cursor: pointer;
+}
+
+.portfolio-img {
+  height: 95%;
+  border-radius: 10px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.portfolio-title{
+  text-align: center;
+  color: #263145;
+  text-transform: uppercase;
+  font-size: xx-large;
+}
+
+.portfolio-description{
+  position: absolute;
+  text-align: center;
+  font-size: small;
+  width: 100%;
+  left: 0;
+  padding: 5%;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 450ms;
+}
+
+.portfolio-description > a{
+  color: goldenrod;
+  position: relative;
+  bottom: 0;
+}
+
+.portfolio-description > .btn{
+  margin-top: 10px;
+}
+
+.portfolio-item.open > .portfolio-title , .portfolio-item.open > .portfolio-img {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.portfolio-item.open > .portfolio-description{
+  opacity: 1;
+  transform: scale(1);
+}
+
+h1{
+  color: lightgray;
+  padding-bottom: 10px;
 }
