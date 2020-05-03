@@ -1,9 +1,7 @@
 .section{
-  height: 100vh;
-  background-size: cover;
+  padding: 10vh 2vh;
   display: flex;
-  align-items: center;
-    
+  align-items: center;   
 }
 
 @keyframes shadow-pulse
@@ -25,8 +23,9 @@
     border: 2px solid #263145;
 }
 
-h5{
+p{
   color: goldenrod;
+  padding: 0 20%;
 }
 
 #caption{
