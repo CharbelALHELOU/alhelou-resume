@@ -13,7 +13,7 @@ import { ExperienceComponent } from './home/experience/experience.component';
 import { TypewriterComponent } from './typewriter/typewriter.component';
 import { EducationComponent } from './home/education/education.component';
 import { PortfolioDetailsComponent } from './home/portofolio/portfolio-details/portfolio-details.component';
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -32,7 +32,8 @@ import { PortfolioDetailsComponent } from './home/portofolio/portfolio-details/p
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
