@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { PortofolioItem } from '../../models/portofolioItem';
+import { PortofolioItem } from '../../models/portofolio-item';
 import { Title } from '@angular/platform-browser';
 import { InfoService } from 'src/app/info.service';
 

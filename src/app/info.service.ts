@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { PortofolioItem } from './models/portofolioItem';
+import { PortofolioItem } from './models/portofolio-item';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 

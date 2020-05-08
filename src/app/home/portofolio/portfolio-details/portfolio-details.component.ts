@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { InfoService } from 'src/app/info.service';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { PortofolioItem } from 'src/app/models/portofolioItem';
+import { PortofolioItem } from 'src/app/models/portofolio-item';
 
 @Component({
   selector: 'app-portfolio-details',
@@ -16,7 +16,7 @@ export class PortfolioDetailsComponent implements OnInit {
   routeSub: Subscription
   
   constructor(private service: InfoService,
-    private activatedRoute: ActivatedRoute) { }
+    private activatedRoute: ActivatedRoute) {   }
 
   ngOnInit(): void {
     this.routeSub = this.activatedRoute
@@ -31,6 +31,11 @@ export class PortfolioDetailsComponent implements OnInit {
         this.item = items[0];
         
       });  
+    document.getElementById('navBar').classList.add("hide");
+  }
+
+  putNavBar(){
+    document.getElementById('navBar').classList.remove("hide");
   }
 
 }

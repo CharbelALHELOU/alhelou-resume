@@ -1,6 +1,7 @@
 .section{
   color: lightgray;
-  
+  top:0;
+  z-index: 99999;
 }
 
 .img-fluid{
@@ -10,4 +11,18 @@
 
 .btn{
   color: lightgray;
+}
+
+.navbar{
+  background-color: rgba(0, 0, 0, 0.61) !important ;
+}
+
+.navbar > a{
+  color: lightgrey;
+  text-transform: uppercase;
+}
+
+.navbar > a:hover{
+  text-decoration: none;
+  color: goldenrod;
 }

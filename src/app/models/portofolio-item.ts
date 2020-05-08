@@ -1,4 +1,4 @@
-export interface PortofolioItem{
+export class PortofolioItem {
     title: string;
     img: string[];
     caption: string;

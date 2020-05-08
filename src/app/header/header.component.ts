@@ -32,8 +32,18 @@ export class HeaderComponent implements OnInit {
   }
   }
 
+  scrollToId(id: string){
+    let element = document.getElementById( id )
+    
+    element.scrollTo({
+      top: 100,
+      left: 100,
+      behavior: 'smooth'
+    });console.log(id);
+  }
+
   stickyNavBar() {
-    if (window.pageYOffset == document.getElementById('navBar').offsetTop+10) {
+    if (window.pageYOffset > document.getElementById('navBar').offsetTop+10) {
       return true;
     } else {
       return false;
