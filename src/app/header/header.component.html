@@ -1,6 +1,6 @@
 <header id="header" >
     <nav class="navbar fixed-top my-auto" [class.sticky]="stickyNavBar()" id="navBar">
-      <a class="btn" href="#" download="alhelou" id="download" >Download</a>
+      <a class="btn" href="#" download="alhelou"> <h6 class="p-0 m-0">Download</h6> </a>
         <div class="hamburger-menu">
           <i class="fas fa-bars" (click)="clicked()" [class.open]='statusOpen'></i>
           <i class="fas fa-times" (click)="clicked()" [class.open]='statusOpen'></i>
@@ -8,19 +8,19 @@
         
         <ul class="nav-list text-center" (click)="clicked()" [class.open]='statusOpen' align='center'>
             <li class="nav-item" [class.active]="passedBy('about')">
-              <a class="nav-link"  href='#about'>{{translations?.home}}</a>
+              <a class="nav-link"  href='#about'>Home</a>
             </li>
             <li class="nav-item" [class.active]="passedBy('edu')">
-              <a class="nav-link" href='#edu'>{{translations?.education}}</a>
+              <a class="nav-link" href='#edu'>Education</a>
             </li>
             <li class="nav-item" [class.active]="passedBy('experience')">
-              <a class="nav-link" href='#experience'>{{translations?.experience}}</a>
+              <a class="nav-link" href='#experience'>Experience</a>
             </li>
             <li class="nav-item" [class.active]="passedBy('portofolio')">
               <a class="nav-link" href='#portofolio'>Portofolio</a>
             </li>
             <li class="nav-item" [class.active]="passedBy('contact')">
-              <a class="nav-link" href='#contact'>{{translations?.contact}}</a>
+              <a class="nav-link" href='#contact'>Contact</a>
             </li>
         </ul>
 

@@ -1,0 +1,17 @@
+h1{
+    color: lightgray;
+    margin-bottom: 10px;
+    font-size: 8vw;
+}
+
+.section{
+    padding: 8px 2%;
+}
+
+
+
+.experience-item{
+    background-color: rgba(255, 255, 255,1);
+    border-radius: 12px;
+    border: 5px solid #263145;
+}

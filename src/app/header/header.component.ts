@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { IMenuLangSet, AllowedLangs } from '../../constants';
-import { LangService } from '../lang.service';
 
 @Component({
   selector: 'app-header',
@@ -9,41 +7,33 @@ import { LangService } from '../lang.service';
 })
 export class HeaderComponent implements OnInit {
 
-  translations: IMenuLangSet = null;
-  language: AllowedLangs = "en" ;
-  constructor(private lang: LangService) { }
+  constructor() { }
 
-  ngOnInit(): void {
-    this.language = this.lang.language;
-    this.changeLang(this.language);
-    
+  ngOnInit(): void {   
   }
-
-  changeLang(language: AllowedLangs){
-    this.language = language;
-    this.lang.changeLang(language);
-    this.translations = this.lang.translation.menu;
-  }
-
 
   statusOpen : boolean = false;
   inTheMain : boolean = false;
 
   clicked(){
     this.statusOpen = !this.statusOpen;
+    console.log(status);
   };
 
   passedBy(idOfElement: string) {
-    let Otop = document.getElementById(idOfElement).offsetTop;
-    if (window.pageYOffset > (Otop-10) && window.pageYOffset <= (Otop + 0.7*window.innerHeight) ) {
-      return true;
-    } else {
-      return false;
-    }
+    var element = document.getElementById(idOfElement);
+    if (element){
+      let Otop = element.offsetTop;
+      if (window.pageYOffset > (Otop-10) && window.pageYOffset <= (Otop + 0.7*window.innerHeight) ) {
+        return true;
+      } else {
+        return false;
+      }
+  }
   }
 
   stickyNavBar() {
-    if (window.pageYOffset > document.getElementById('navBar').offsetTop) {
+    if (window.pageYOffset == document.getElementById('navBar').offsetTop+10) {
       return true;
     } else {
       return false;

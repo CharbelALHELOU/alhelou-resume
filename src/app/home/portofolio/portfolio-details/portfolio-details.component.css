@@ -1,0 +1,13 @@
+.section{
+  color: lightgray;
+  
+}
+
+.img-fluid{
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
+.btn{
+  color: lightgray;
+}

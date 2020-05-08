@@ -5,15 +5,15 @@
   align-content: center;
   display: flex;
   flex-direction: column;
-  padding: 1% 5%;
   cursor: pointer;
   border: 5px solid #263145;
-  height: 45vh;
 }
 
 
 .img-fluid {
   border-radius: 10px;
+  max-width: 100%;
+  max-height: 70%;
 }
 
 .portfolio-title{
@@ -25,9 +25,11 @@
 
 .portfolio-description{
   position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
   text-align: center;
-  font-size: small;
-  left: 0;
+  font-size: medium;
   padding: 6% 12%;
   opacity: 0;
   transform: scale(0);
@@ -51,7 +53,8 @@
 
 .portfolio-item.open > .portfolio-description{
   opacity: 1;
-  transform: scale(1);
+  transform: scale(1) translate(-50%, -50%);
+  display: block;
 }
 
 h1{
@@ -108,7 +111,7 @@ h1{
 
 .btn{
   color: #263145 !important;
-  font-size: x-small;
+  font-size: small;
 }
 
 .more-info{

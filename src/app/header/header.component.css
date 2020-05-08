@@ -3,7 +3,6 @@ a{
   color: lightgray !important;
 }
 
-
 .hamburger-menu{
   position: relative;
   display: flex;
@@ -13,9 +12,8 @@ a{
 }
 
 .hamburger-menu i{
-  font-size: 30px;
+  font-size: xx-large;
   color: lightgray;  
-  font-size: large;
 }
 
 .hamburger-menu .fa-times{
@@ -62,7 +60,7 @@ a{
 }
 
 
-@media (min-width: 768px){
+@media (min-width: 992px){
   .hamburger-menu{
     display: none;
   }
@@ -110,9 +108,11 @@ a{
   .nav-link:hover::before{
     transform: scaleX(1);
   }
-  #download{
+
+  .btn{
     z-index: 10000;
   }
+
   .active > .nav-link::before{
     content: "";
     position: absolute;
@@ -126,18 +126,16 @@ a{
   }
 }
 
-#download{
-  font-size: small;
-}
 
 #navBar{
+  background-color: rgba(0, 0, 0, 0.61) ;
   padding-bottom: 12px;
 }
 
 .sticky {
-  background-color: rgba(0, 0, 0, 0.61) !important;
-  z-index: 999;
-  transition: all 900ms ease;
+    background: transparent !important;
+    z-index: 99;
+    transition: all 900ms ease;
   }
   
   .sticky + .content {
