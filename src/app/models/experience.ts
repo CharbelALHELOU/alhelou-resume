@@ -1,7 +1,7 @@
 export class Experience {
     institution: string;
-    start : Date ;
-    end: Date ;
+    start : string ;
+    end: string ;
     role: string;
     description: string;
 }

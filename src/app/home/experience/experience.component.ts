@@ -17,9 +17,20 @@ export class ExperienceComponent implements OnInit {
 
   ngOnInit(): void {
     this.service.fetchExperienceItems().subscribe((items : Experience[]) => {
+      // sort the experiences by date of beginning
+      items.sort(function(a,b){
+        let c = new Date(a.start);
+        let d = new Date(b.start);
+        if (c.getFullYear() == d.getFullYear() ){
+          return (c.getMonth() - d.getMonth());
+        }
+        return ( c.getFullYear() - d.getFullYear());
+      });
       this.items = items;
     });
   }
+
+
 
 
 }
