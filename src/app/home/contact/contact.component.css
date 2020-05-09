@@ -17,10 +17,10 @@ h1{
 }
 
 .send{
-  border: 2px solid orange;
+  border: 2px solid lightgreen;
   margin-right: 5px;
   border-radius: 5px;
-  color: orange;
+  color: lightgreen;
 }
 
 .reset{
@@ -35,7 +35,7 @@ h1{
 }
 
 .error{
-  border: 2px solid red;
+  border: 3px solid red !important;
 }
 
 textarea{
@@ -53,6 +53,8 @@ textarea{
   padding-bottom: 0 !important;
   margin: 0;
 }
+
+
 
 .col-12:last-child{
   margin-bottom: 8px;
@@ -79,4 +81,14 @@ ul{
   justify-content: space-around;
   list-style: none;
   padding: 5px 4%;
+}
+
+.form-control{
+  border: 3px solid #263145;
+ 
+}
+
+label{
+  color: orange;
+  text-transform: uppercase;
 }
