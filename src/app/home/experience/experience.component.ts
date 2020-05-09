@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { InfoService } from 'src/app/info.service';
 import { Experience } from 'src/app/models/experience';
+import { of } from 'rxjs';
 
 @Component({
   selector: 'app-experience',
@@ -9,15 +10,16 @@ import { Experience } from 'src/app/models/experience';
 })
 export class ExperienceComponent implements OnInit {
 
-  items : Experience;
+  items : Experience[];
 
   constructor(private service : InfoService ) {     
   }
 
   ngOnInit(): void {
-    this.service.fetchExperienceItems().subscribe((items : Experience) => {
+    this.service.fetchExperienceItems().subscribe((items : Experience[]) => {
       this.items = items;
     });
   }
+
 
 }

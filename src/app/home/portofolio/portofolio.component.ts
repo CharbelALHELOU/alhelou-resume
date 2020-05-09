@@ -10,7 +10,7 @@ import { InfoService } from 'src/app/info.service';
 })
 export class PortofolioComponent implements OnInit {
 
-  items : PortofolioItem;
+  items : PortofolioItem[];
   status : boolean[] = [false,false,false];
   moreStatus: boolean = false;
 
@@ -18,7 +18,7 @@ export class PortofolioComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.service.fetchPortfolioItems().subscribe((items : PortofolioItem) => {
+    this.service.fetchPortfolioItems().subscribe((items : PortofolioItem[]) => {
       this.items = items;
     });
   }

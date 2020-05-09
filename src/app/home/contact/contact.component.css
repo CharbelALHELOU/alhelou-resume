@@ -1,10 +1,7 @@
-.section{
-  height: 98vh;
-}
 
 .container-fluid{
   background-color: rgba(255, 255, 255,1);
-  height: 100%;
+  width: 100%;
   z-index: 3;
   border-radius: 20px;
   border: 5px solid #263145;
@@ -17,11 +14,6 @@ h1{
 }
 
 @media (min-width: 992px){
-  .container{
-    display: flex;
-    flex-direction: row;
-
-  }
 }
 
 .send{
@@ -36,4 +28,55 @@ h1{
   margin-left: 5px;
   border-radius: 5px;
   color: crimson;
+}
+
+#message{
+  line-height: 100px;
+}
+
+.error{
+  border: 2px solid red;
+}
+
+textarea{
+  overflow: auto;
+  line-height: 20px !important;
+  height: 100px !important;
+}
+
+.text-danger{
+  margin-bottom: 0;
+  opacity: 0;
+}
+
+.form-group{
+  padding-bottom: 0 !important;
+  margin: 0;
+}
+
+.col-12:last-child{
+  margin-bottom: 8px;
+}
+
+.visible{
+  opacity: 1 !important;
+}
+
+a{
+  font-size: 10vh;
+  color: whitesmoke;
+  padding-top: 10% ;
+}
+
+a:hover{
+  color: goldenrod;
+}
+
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  padding: 5px 4%;
 }
