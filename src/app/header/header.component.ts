@@ -25,7 +25,7 @@ export class HeaderComponent implements OnInit {
     var element = document.getElementById(idOfElement);
     if (element){
       let top = element.offsetTop;
-      return (top < (window.pageYOffset + window.innerHeight) && (top + 0.7*window.innerHeight) >= window.pageYOffset)
+      return (top < (window.pageYOffset + 0.5*window.innerHeight) && (top + element.offsetHeight) >= window.pageYOffset)
   }
   }
 

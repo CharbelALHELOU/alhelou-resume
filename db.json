@@ -2,150 +2,84 @@
   "portfolio": [
     {
       "id": 0,
-      "caption": "small description like bl bla bla bla bla bla and anb bla bla",
-      "description": "Here we have a small descript of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
-      "title": "Title 1",
+      "caption": "Project for IN204",
+      "description": "This project is for IN204 an OOP course in C++, my tetris include manager and allow multiplaying",
+      "title": "Tetris",
       "img": [
-        "../../assets/bg2.jpg",
-        "../../assets/bg2.jpg"
+        "../../../assets/tetrislogo.png",
+        "../../assets/tetris1.png",
+        "../../assets/tetris2.png",
+        "../../assets/tetris3.png"
       ],
-      "url": "https://github.com/CharbelALHELOU/alhelou-resume"
+      "url": "https://https://github.com/CharbelALHELOU/Tetris/"
     },
     {
       "id": 1,
-      "caption": "small description like bl bla bla bla bla bla and anb bla bla",
-      "description": "Here we have a small descript of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
-      "title": "Title 2",
+      "caption": "Project for IN104",
+      "description": "This project is for IN104 a OOP course in Python, me and my friend we coded an IA that is able to get a nearly perfect score using the hat guessing strategy",
+      "title": "Hanabi",
       "img": [
-        "../../assets/bg2.jpg",
-        "../../assets/bg2.jpg"
+        "../../../assets/hanabilogo.jpeg",
+        "../../assets/hanabi1.png",
+        "../../assets/hanabi2.png"
       ],
-      "url": "https://github.com/CharbelALHELOU/alhelou-resume"
+      "url": "https://github.com/CharbelALHELOU/hanabi"
     },
     {
       "id": 2,
-      "caption": "small description like bl bla bla bla bla bla and anb bla bla",
-      "description": "Here we have a small descript of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
-      "title": "Title 3",
+      "caption": "Project for IN205",
+      "description": "This project is for IN205 a Java course in Python, me and my friend, we built a library manager application using maven and tomcat7 in JEE and Java",
+      "title": "Library Manager",
       "img": [
-        "../../assets/bg2.jpg",
-        "../../assets/bg2.jpg"
+        "../../../assets/lm.jpg"
       ],
-      "url": "https://github.com/CharbelALHELOU/alhelou-resume"
-    },
-    {
-      "id": 3,
-      "caption": "small description like bl bla bla bla bla bla and anb bla bla",
-      "description": "Here we have a small descript of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
-      "title": "Title 4",
-      "img": [
-        "../../assets/bg2.jpg",
-        "../../assets/bg2.jpg"
-      ],
-      "url": "https://github.com/CharbelALHELOU/alhelou-resume"
-    },
-    {
-      "id": 4,
-      "caption": "small description like bl bla bla bla bla bla and anb bla bla",
-      "description": "Here we have a small descript of the project i can be whatever you want. For example you can talck about the client, the language, the dates etc... also so it can be refered to, there's a link to learn more about it",
-      "title": "Title 5",
-      "img": [
-        "../../assets/bg2.jpg",
-        "../../assets/bg2.jpg"
-      ],
-      "url": "https://github.com/CharbelALHELOU/alhelou-resume"
+      "url": "https://github.com/icaresakr/LibraryManager"
     }
   ],
   "experiences": [
     {
-      "institution": "Bla Bla Bla",
-      "start": "2006-05",
+      "institution": "TALEB, ENSTA Lebanese club",
+      "start": "2019-11",
       "end": "",
-      "role": "CEO",
-      "caption": "small description like bl bla bla bla bla bla and anb bla bla",
-      "description": "Merry alone do it burst me songs. Sorry equal charm joy her those folly ham. In they no is many both. Recommend new contented intention improving bed performed age. Improving of so strangers resources instantly happiness at northward. Danger nearer length oppose really add now either. But ask regret eat branch fat garden. Become am he except wishes. Past so at door we walk want such sang. Feeling colonel get her garrets own. "
+      "role": "Co-Founder & Vice-President",
+      "description": "The club aims to share the Lebanese culture with ENSTA Students, through many events and activities."
     },
     {
-      "institution": "Bla Bla Bla",
-      "start": "2009-06",
-      "end": "2020-09",
-      "role": "CEO",
-      "caption": "small description like bl bla bla bla bla bla and anb bla bla",
-      "description": "Is he staying arrival address earnest. To preference considered it themselves inquietude collecting estimating. View park for why gay knew face. Next than near to four so hand. Times so do he downs me would. Witty abode party her found quiet law. They door four bed fail now have."
+      "institution": "SOS Chretiens d'Orient",
+      "start": "2019-07",
+      "end": "2019-09",
+      "role": "Volunteer in Lebanon",
+      "description": "My job was to organize activities for children ,and visit local families and refugees to understand theirsituation in order to offer the necessary support."
     },
     {
-      "institution": "Bla Bla Bla",
-      "start": "2009-05",
-      "end": "2020-09",
-      "role": "CEO",
-      "caption": "small description like bl bla bla bla bla bla and anb bla bla",
-      "description": "Is he staying arrival address earnest. To preference considered it themselves inquietude collecting estimating. View park for why gay knew face. Next than near to four so hand. Times so do he downs me would. Witty abode party her found quiet law. They door four bed fail now have."
+      "institution": "Eucharistic Youth Movement (EYM)",
+      "start": "2015-09",
+      "end": "2016-06",
+      "role": "Head Chief",
+      "description": "I organized weekly meetings and numerous camps for an average of 80 children. I developed my team work and communication skills, and learned to respect deadlines."
     },
     {
-      "institution": "Bla Bla Bla",
-      "start": "2005-05",
+      "institution": "Private Tutoring",
+      "start": "2017-09",
       "end": "",
-      "role": "CEO",
-      "caption": "small description like bl bla bla bla bla bla and anb bla bla",
-      "description": "Merry alone do it burst me songs. Sorry equal charm joy her those folly ham. In they no is many both. Recommend new contented intention improving bed performed age. Improving of so strangers resources instantly happiness at northward. Danger nearer length oppose really add now either. But ask regret eat branch fat garden. Become am he except wishes. Past so at door we walk want such sang. Feeling colonel get her garrets own. "
+      "role": "Tutor",
+      "description": "Provide educational assistance in mathematics to high school and university students. I learned to be patient and deliver information clearly in various ways."
+    },
+    {
+      "institution": "Twizy Contest Challenge 2020",
+      "start": "2019-09",
+      "end": "",
+      "role": "Team Challenge organized by Renault",
+      "description": "Developing a mobility solution for the 2024 Olympic Games to reduce its environmental impact.We proposed a new efficient way to park and charge the car."
     }
   ],
   "messages": [
     {
+      "name": "sdf",
+      "tel": "0611662731",
+      "email": "sdcv@hhd.sds",
+      "message": "fdgfijk;skx;lgksf",
       "id": 1
-    },
-    {
-      "name": null,
-      "id": 2
-    },
-    {
-      "name": null,
-      "id": 3
-    },
-    {
-      "name": null,
-      "id": 4
-    },
-    {
-      "name": "SDFGHJ",
-      "tel": "1234567899",
-      "email": "charg@jk.hc",
-      "id": 5
-    },
-    {
-      "name": "mnbvc",
-      "tel": "1234567899",
-      "email": "vcxa@fghj.fds",
-      "message": "dfghjgkhjblkn",
-      "id": 6
-    },
-    {
-      "name": "sdfgh",
-      "tel": "0611662731",
-      "email": "hgdb@hjd.hh",
-      "message": "sdfsgsdfghn",
-      "id": 7
-    },
-    {
-      "name": "cjkxgkjgadgouag",
-      "tel": "1234567890",
-      "email": "dshdhn@sakdjd.fr",
-      "message": "sadflgfsgfgoufl",
-      "id": 8
-    },
-    {
-      "name": "charbel",
-      "tel": "0611662731",
-      "email": "sdfg@dfg.jg",
-      "message": "hi No internet\nTry:\n\nChecking the network cables, modem, and router\nReconnecting to Wi-Fi\nDNS_PROBE_FINISHED_NO_INTERNETsdfrghjashjgdhckjla;kadjfhldkaj;ks'dalfj;hskajLK;DSALFJHFSJALK;Qdsd\ndfsgkjahw;sdafjhksla;DFK'DSA\nFSGDNHLGKSDEALW;QE;AKFDJSLA;WELES\nFDGHDFSKJAL;AKfdsjsla;lfskgfsakd;fsljgdfs\nfsdhfakljkhlaLDJFKHLKALKLFJKHSDAK;LJksa:jkjjdkfjgflk:gljlfkljfldkkkkkkKKHGKHLAJ;REghklj;etsrdhjk'\ngfkhjflk;ldgk'f;kdl'fd;kd';wfldg\nfghkjlf;wkghfer';kfgjd;l'welrfgk'we;l;fkgje'w;rfkgje;w';fkgjke;w'w\nkljhgfdfgfhjkl;';lkjhgffhjkl;';kjhgfdghjkl;kjhgfhjkl;';kjhg\nwefrgkhlfkdsl;'d;fkbgjfld;s'\ndf'lkbgfkd;ls'f;gbkjbfd;sl'fl;bgkkfd;l'g;kngkf;ds'fgkblfd;s;f'lbkglfds'gl;klfd'lfg;kngf;dl'fg;kfd'\nsdf;lbgkjkfdls;a'dfkbgj",
-      "id": 9
-    },
-    {
-      "name": "charbel",
-      "tel": "4874513879",
-      "email": "sdfb@hsh.hh",
-      "message": "hi je vous ahds\nui dka\net \ncordualement",
-      "id": 10
     }
   ]
 }

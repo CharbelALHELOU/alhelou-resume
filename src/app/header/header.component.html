@@ -7,11 +7,11 @@
         </div>
         
         <ul class="nav-list text-center" (click)="clicked()" [class.open]='statusOpen' align='center'>
-            <li class="nav-item" >
-              <a class="nav-link"  routerLink='' >Home</a>
+            <li class="nav-item disabled">
+              <a class="nav-link"  href="#about" >Home</a>
             </li>
-            <li class="nav-item" [class.active]="passedBy('edu')">
-              <a class="nav-link" href='#edu'>Education</a>
+            <li class="nav-item" [class.active]="passedBy('skills')">
+              <a class="nav-link" href='#skills'>Skills</a>
             </li>
             <li class="nav-item" [class.active]="passedBy('experience')">
               <a class="nav-link" href='#experience'>Experience</a>

@@ -19,8 +19,8 @@ export class ExperienceComponent implements OnInit {
     this.service.fetchExperienceItems().subscribe((items : Experience[]) => {
       // sort the experiences by date of beginning
       items.sort(function(a,b){
-        let c = new Date(a.start);
-        let d = new Date(b.start);
+        let c = new Date(b.start);
+        let d = new Date(a.start);
         if (c.getFullYear() == d.getFullYear() ){
           return (c.getMonth() - d.getMonth());
         }

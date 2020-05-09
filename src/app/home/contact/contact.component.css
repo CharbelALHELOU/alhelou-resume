@@ -1,6 +1,6 @@
 
 .container-fluid{
-  background-color: rgba(255, 255, 255,1);
+  background-color:whitesmoke;
   width: 100%;
   z-index: 3;
   border-radius: 20px;
@@ -17,10 +17,10 @@ h1{
 }
 
 .send{
-  border: 2px solid lightgreen;
+  border: 2px solid green;
   margin-right: 5px;
   border-radius: 5px;
-  color: lightgreen;
+  color: green;
 }
 
 .reset{

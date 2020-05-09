@@ -12,7 +12,7 @@ import { PortofolioItem } from 'src/app/models/portofolio-item';
 export class PortfolioDetailsComponent implements OnInit {
 
   id: number;
-  item: PortofolioItem;
+  item: PortofolioItem = new PortofolioItem();
   routeSub: Subscription
   
   constructor(private service: InfoService,

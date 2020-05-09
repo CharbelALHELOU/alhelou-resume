@@ -22,5 +22,9 @@ export class InfoService {
   fetchExperienceItems(): Observable<any> {
     return this.http.get("http://localhost:3000/experiences")
   }
+
+  fetchEduItems(): Observable<any> {
+    return this.http.get("http://localhost:3000/education")
+  }
 }
 
