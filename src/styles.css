@@ -1,61 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Play');
+@import '~bootstrap/dist/css/bootstrap.min.css';
 
 html {
   scroll-behavior: smooth;
 }
 
 body{
-    font-family: 'Jura', sans-serif;
+    font-family: 'Montserrat';
     background: linear-gradient(#263145be,#263145ad), url(assets/bg2.jpeg);
     background-attachment:fixed;    
     overflow: overlay;
   }
 
-
-.btn{
-  widows: 100px;
-  padding: 1px 12px 1px 12px!important;
-  border: 1px solid lightgray;
-  position: relative;
-  overflow: hidden;
-  z-index: 900;
-}
-
-.btn::before{
-  content: "";
-  position: absolute;
-  top: -100%;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(120deg, transparent, rgba(255,255,255,.5), transparent);
-  transition: all 550ms;
-}
-
-.btn:hover::before{
-  top: 100%;
-  left: 100%;
+h1{
+  font-size: 10vw;
+  font-family: 'Play';
+  margin: 0;
+  text-shadow: 12px 5px 0 #0a0e27;
 }
 
 
-section{
-  justify-content: center;
-  align-content: center;
-  width: 100vw;
-}
 
-.center{
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+.golden{
+  color: goldenrod !important;
 }
-
 
 ::-webkit-scrollbar {
   width: 12px;
   display: none;
 }
 
+.sticky {
+  background-color: #263145be !important ;
+  z-index: 99;
+  transition: all 900ms ease;
+}
+
+.sticky + .content {
+padding-top: 102px;
+}

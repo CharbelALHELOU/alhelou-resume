@@ -7,37 +7,31 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  open : boolean = false;
+  scrolled: boolean = false;
+  s = screen;
+  
   constructor() { }
 
   ngOnInit(): void {   
-    
+    window.addEventListener('scroll', this.scroll, true);
   }
 
-  statusOpen : boolean = false;
-  inTheMain : boolean = false;
+  ngOnDestroy() {
+    window.removeEventListener('scroll', this.scroll, true);
+}
 
-  clicked(){
-    this.statusOpen = !this.statusOpen;
-    console.log(status);
+  scroll = (event): void => {
+    if (window.pageYOffset > (document.getElementById('navBar').offsetTop)) {
+      this.scrolled = true;
+    } else {
+      this.scrolled = false;
+    }
   };
 
-  passedBy(idOfElement: string) {
-    var element = document.getElementById(idOfElement);
-    if (element){
-      let top = element.offsetTop;
-      return (top < (window.pageYOffset + 0.5*window.innerHeight) && (top + element.offsetHeight) >= window.pageYOffset)
-  }
-  }
-
- 
-
-  stickyNavBar() {
-    if (window.pageYOffset > document.getElementById('navBar').offsetTop+10) {
-      return true;
-    } else {
-      return false;
-    }
-  }
-
+  
+  clicked(){
+    this.open = !this.open;
+  };
  
 }

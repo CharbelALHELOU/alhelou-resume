@@ -1,0 +1,36 @@
+section{
+    height: 400px;
+}
+
+.container-fluid{
+    border: 2px solid goldenrod;
+    background-color: rgba(211, 211, 211, 0.28);
+    overflow: scroll;
+}
+
+.comment{
+    border-radius: 30px;
+    background-color: white;
+    background-size: cover;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 6vw;
+    text-shadow: 5px 5px 0 goldenrod !important;
+}
+
+.name{
+    font-size: xx-large;
+    font-weight: 500;
+    
+}
+
+
+.relation{
+    font-size: large;
+}
+
+p{
+    font-size: small;
+}

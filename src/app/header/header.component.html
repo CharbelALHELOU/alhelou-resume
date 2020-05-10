@@ -1,28 +1,26 @@
-<header id="header" >
-    <nav class="navbar fixed-top my-auto" [class.sticky]="stickyNavBar()" id="navBar">
-      <a class="btn" href="#" download="alhelou"> <h6 class="p-0 m-0">Download</h6> </a>
-        <div class="hamburger-menu">
-          <i class="fas fa-bars" (click)="clicked()" [class.open]='statusOpen'></i>
-          <i class="fas fa-times" (click)="clicked()" [class.open]='statusOpen'></i>
-        </div>
-        
-        <ul class="nav-list text-center" (click)="clicked()" [class.open]='statusOpen' align='center'>
-            <li class="nav-item disabled">
-              <a class="nav-link"  href="#about" >Home</a>
-            </li>
-            <li class="nav-item" [class.active]="passedBy('skills')">
-              <a class="nav-link" href='#skills'>Skills</a>
-            </li>
-            <li class="nav-item" [class.active]="passedBy('experience')">
-              <a class="nav-link" href='#experience'>Experience</a>
-            </li>
-            <li class="nav-item" [class.active]="passedBy('portofolio')">
-              <a class="nav-link" href='#portofolio'>Portofolio</a>
-            </li>
-            <li class="nav-item" [class.active]="passedBy('contact')">
-              <a class="nav-link" href='#contact'>Contact</a>
-            </li>
-        </ul>
+<header>
+  <nav id="navBar" [ngClass]="{'navbar navbar-expand-md fixed-top px-md-3 pr-0':true,
+'sticky': scrolled, 'open':open }">
+  <a class="btn" [class.golden]="open" href="#" download="alhelou">Download </a>
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu" (click)="clicked()">
+    <i class="fas fa-align-right "></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ml-auto" >
+          <li class="nav-item px-1" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+            <a class="nav-link"  routerLink="/" >Home</a>
+          </li>
+          <li class="nav-item px-1" routerLinkActive="active">
+            <a class="nav-link" routerLink="portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item px-1" routerLinkActive="active">
+            <a  *ngIf="s.width < 768" class="nav-link" routerLink='contact'>Contact Me</a>
+            <a *ngIf="s.width >= 768" type="button" class="btn modal-opener" data-toggle="modal" data-target="#myModal">Contact Me</a>
+          </li>
+      </ul>
+  </div>
 
-    </nav>
+</nav>
+
 </header>
+

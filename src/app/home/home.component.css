@@ -1,8 +1,3 @@
-.section{ 
-  width: 100%;
-  height: 100vh;
-}
-
 @keyframes shadow-pulse
 {
   0% {
@@ -13,40 +8,103 @@
   }
 }
 
-#avatar{
-    position: relative;
-    align-items: center;
-    max-height: 35vh;
+f{
+  font-size: xx-large !important;
+}
+
+.avatar{
     border-radius: 50%;
     animation: shadow-pulse 950ms infinite;
     border: 2px solid #263145;
 }
 
-p{
-  color: goldenrod;
-  padding: 0 3vw;
+h1{
+  text-transform: uppercase;
+  font-family: 'Anton';
+  text-shadow: none;
+}
+
+@media(min-height: 768px){
+  section:first-child{
+    height: 100vh;
+  }
+  .container-fluid{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+  }
+}
+
+
+.follow-me{
+  text-shadow: 10px 5px 0 goldenrod;
+}
+
+.follow{
+  background-color: #263145a6;
+}
+
+a > i{
+  font-size: 10vw;
+  color: whitesmoke;
+  text-shadow: 5px 5px 0 #263145;
+}
+
+a > i:hover{
+  text-shadow: 5px 5px 0 goldenrod;
+}
+
+.fa-basketball-ball{
+  color: rgb(216, 140, 0);
+}
+.fa-music{
+  color: crimson;
+}
+
+.cards{
+  border: 2px solid #263145;
+}
+
+@media(min-width: 768px){
+  .follow-me{
+    font-size: 10vw;
+  }
+}
+
+
+h2{
+  font-size: 10vw;
+  font-family: 'Play';
+  margin: 0;
+  text-shadow: 12px 5px 0 #0a0e27;
+}
+
+.card{
+  font-size: 8vw;
+  text-align: center;
+  border: 6px solid #263145 !important;
+  border-radius: 20px;
+}
+
+ul{
+  list-style: none;
+}
+
+.logo{
+  font-size: xx-large;
 }
 
 .caption{
-  text-align: center;
+  font-size: medium;
 }
 
-
-.container-fluid{
-  position: relative;
-  top: 50%;
-  padding: 0;
-  transform: translateY(-50%);
+.fa-trophy{
+  color: gold;
 }
 
-
-.title{
-  color: white;
-  font-size: xx-large;
-  text-transform: uppercase;
+.fa-tshirt{
+  color: darkblue;
 }
-.container{
-  padding: 2vh 0;
-  width: 100vw;
-  margin: 0;
+.fa-guitar{
+  color: rgb(94, 25, 25);
 }

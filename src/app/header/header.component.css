@@ -1,106 +1,18 @@
-/* header*/
-a{
-  color: lightgray !important;
-}
-
-.hamburger-menu{
-  position: relative;
-  display: flex;
-  cursor: pointer;
-  z-index: 999;
-  background: transparent;
-}
-
-.hamburger-menu i{
-  font-size: xx-large;
-  color: lightgray;  
-}
-
-.hamburger-menu .fa-times{
-  display: none;
-}
-
-.hamburger-menu .fa-times.open{
-  display: block;
-  color: #263145;
-}
-
-.hamburger-menu .fa-bars.open{
-  display: none;
-}
-
-
-.nav-list{
-  margin: 0;
-  padding: 6vh 0 0 0;
-  position: absolute;
-  right: 0;
-  width: 100%;
-  top: 0;
-  background-color: rgba(211, 211, 211, 0.98);
-  list-style: none;
-  z-index: 990;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  opacity: 0;
-  transform: scale(0);
-  transition: opacity 750ms;
-  text-transform: uppercase;
-  font-size: 3vh;
-  border-radius: 0 0 20px 20px;
-}
-.nav-link{
-  color: #263145 !important;
-}
-
-.nav-list.open{
-  opacity: 1;
-  transform: scale(1);
-}
-
-
-@media (min-width: 992px){
-  .hamburger-menu{
-    display: none;
-  }
-  
-  .nav-list{
-    padding-top: 0px;
-    background: transparent;
-    flex-direction: row;
-    opacity: initial;
-    transform: initial;
-    transition: initial;
-    height: initial;
-    font-size: x-large;
-    font-weight: 500;
-    margin: 0;
-  }
-
-  .nav-item{
-    margin: 0 1%;
-  }
-
-  .nav-item:last-child{
-    margin-right: 0;
-  }
+@media (min-width: 768px){
 
   .nav-link{
     position: relative;
-    padding: 0;
-    color: lightgray !important;
+    color: white !important;
   }
 
   .nav-link::before{
     content: "";
     position: absolute;
     left: 0;
-    background-color: rgba(255, 255, 255, .7);
-    width: 100%;
-    height: 3px;
-    bottom: -3px;
+    background-color: rgba(218, 165, 32, 0.733);
+    width: 98%;
+    height: 2px;
+    bottom: -2px;
     transform: scaleX(0);
     transform-origin: center;
     transition: transform 350ms;
@@ -110,17 +22,13 @@ a{
     transform: scaleX(1);
   }
 
-  .btn{
-    z-index: 10000;
-  }
-
   .active > .nav-link::before{
     content: "";
     position: absolute;
     left: 0;
     background-color: goldenrod;
     width: 100%;
-    height: 3px;
+    height: 4px;
     bottom: -3px;
     transform: scaleX(1);
     transform-origin: center;
@@ -128,20 +36,36 @@ a{
 }
 
 
-#navBar{
-  padding-bottom: 12px;
-}
 
-.sticky {
-    background-color: rgba(0, 0, 0, 0.61) !important ;
-    z-index: 99;
-    transition: all 900ms ease;
-  }
-  
-  .sticky + .content {
-  padding-top: 102px;
-  }
 
 .hide{
   display: none;
+}
+
+a{
+  color: white;
+  font-size: large;
+  padding-bottom: 5px ;
+}
+
+i{
+  color: white;
+  font-size: larger;
+}
+
+.open{
+  background-color: #263145f3 !important ;
+}
+
+.btn{
+  font-weight: 600;
+}
+
+.btn:hover{
+  color: goldenrod !important;
+}
+
+.modal-opener{
+  font-weight: inherit;
+  color: goldenrod;
 }

@@ -1,0 +1,19 @@
+
+.container-fluid{
+    background-color: rgba(255, 255, 255,1);
+    height: 100%;
+    z-index: 3;
+    border-radius: 20px;
+    border: 5px solid #263145;
+}
+
+h5{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+@media(min-width: 768px){
+    .col-md-6:first-child{
+        border-right: 1px solid  ;
+    }
+}

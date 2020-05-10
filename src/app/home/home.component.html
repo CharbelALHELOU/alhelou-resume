@@ -1,20 +1,101 @@
-<div class="section py-5" id="about">
-    <div class="container-fluid" id="intro">
-        <div class="row " >
-            <div class="col-12 my-auto" align='center'> 
-                <img  class="img-fluid pulse" id="avatar" src="../../assets/avatar.png" alt="">
+<section class="py-5 px-4">
+    <div class="container-fluid pt-5">
+        <div class="row">
+            <div class="col-xl-6" align='center'>
+                <img  class="img-fluid avatar" id="avatar" src="../../assets/avatar.png" alt="">
             </div>
-            <div class="col-12 my-auto" align='center'> 
-                <div class="container text-center">
+            <div class="col-xl-6 pt-5 px-0 mx-0 my-auto text-center">
+                <h1 class=" text-white">
                     <app-typewriter class="title" message="Charbel alhelou"></app-typewriter>
-                    <p>I'm a fourth year student at ENSTA Paris, majoring in Architecture and Security of Information Systems.</p>
+                </h1>
+                <p class="golden f">I'm a fourth year student at ENSTA Paris, majoring in Architecture and Security of Information Systems.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<app-skills></app-skills>
+<app-experience></app-experience>
+
+<section class="py-5 px-3 border-top border-bottom follow">
+    <div class="container-fluid py-2 px-0">
+        <div class="row">
+            <div class="col-md-6 my-auto text-center pb-2">
+                <h1 class="text-white follow-me display-1" >
+                    Follow Me
+                </h1>
+            </div>
+            <div class="col-md-2 col-4 text-center">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="col-md-2 col-4 text-center">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="col-md-2 col-4 text-center">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="py-5 px-3">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center text-white pb-5">
+                <h2>HOBBIES</h2>
+            </div>
+        </div>
+        <div class="row px-sm-5">
+            <div class="col-sm-6 p-sm-5">
+                <div class="container-fluid border card p-5">
+                    <div class="row border-bottom py-0 text-center">
+                        <div class="col-12">
+                            <i class="fas fa-basketball-ball"></i>
+                        </div>
+                    </div>
+                    <div class="row pt-1 border-bottom more">
+                        <div class="col-4 logo text-center">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="col-8 caption">1st Lebanese high school championship 2016</div>
+                    </div>
+                    <div class="row pt-1 border-bottom more">
+                        <div class="col-4 logo text-center">
+                            <i class="far fa-clipboard"></i>
+                        </div>
+                        <div class="col-8 caption">Coach for juniors</div>
+                    </div>
+                    <div class="row pt-1 border-bottom more">
+                        <div class="col-4 logo text-center">
+                            <i class="fas fa-tshirt"></i>
+                        </div>
+                        <div class="col-8 caption">Lebanese 3rd Division 2017-2018</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 p-sm-5">
+                <div class="container-fluid border h-100 card p-5">
+                    <div class="row border-bottom py-0 text-center">
+                        <div class="col-12">
+                            <i class="fas fa-music"></i>
+                        </div>
+                    </div>
+                    <div class="row pt-1 border-bottom more">
+                        <div class="col-4 logo text-center">
+                            <i class="fas fa-guitar"></i>
+                        </div>
+                        <div class="col-8 caption">4 years</div>
+                    </div>
+                    <div class="row pt-1 border-bottom more">
+                        <div class="col-4 logo text-center">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <div class="col-8 caption"><strong>Piano</strong> 7 years</div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<app-skills id="skills"></app-skills>
-<app-experience id="experience"></app-experience>
-<app-portofolio id="portofolio"></app-portofolio>
-<app-contact id="contact"></app-contact>
+</section>

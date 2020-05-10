@@ -1,0 +1,37 @@
+.experience-item{
+    background-color: rgba(255, 255, 255,1);
+    border-radius: 12px;
+    border: 5px solid #263145;
+}
+
+.vl {
+    height: 100%;
+    background-color: whitesmoke;
+    width: 4%;
+    font-size: xx-large;
+    color: goldenrod;
+  }
+
+.vl> i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@media(max-width: 767px){
+    .space-md{
+        display: none;
+    }
+}
+
+@media(min-width: 767px){
+    .space-sm{
+        display: none;
+    }
+}
+
+.dates{
+    color: goldenrod;
+}
+

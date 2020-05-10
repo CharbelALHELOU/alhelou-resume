@@ -6,14 +6,23 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { PortofolioComponent } from './home/portofolio/portofolio.component';
-import { ContactComponent } from './home/contact/contact.component';
-import { ExperienceComponent } from './home/experience/experience.component';
+import { PortofolioComponent } from './portofolio/portofolio.component';
+import { ContactComponent } from './contact/contact.component';
+import { ExperienceComponent } from './experience/experience.component';
 import { TypewriterComponent } from './typewriter/typewriter.component';
-import { PortfolioDetailsComponent } from './home/portofolio/portfolio-details/portfolio-details.component';
+import { PortfolioDetailsComponent } from './portofolio/portfolio-details/portfolio-details.component';
 import { FormsModule } from '@angular/forms';
 import { StatComponent } from './stat/stat.component';
-import { SkillsComponent } from './home/skills/skills.component';
+import { SkillsComponent } from './skills/skills.component';
+import { DetailsComponent } from './portofolio/details/details.component';
+import { ModalModule } from 'ngx-bootstrap/modal';
+import { ContactModalComponent } from './contact-modal/contact-modal.component';
+import { CommentComponent } from './comment/comment.component';
+import { AddCommentComponent } from './comment/add-comment/add-comment.component';
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -27,13 +36,18 @@ import { SkillsComponent } from './home/skills/skills.component';
     TypewriterComponent,
     PortfolioDetailsComponent,
     StatComponent,
-    SkillsComponent
+    SkillsComponent,
+    DetailsComponent,
+    ContactModalComponent,
+    CommentComponent,
+    AddCommentComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ModalModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

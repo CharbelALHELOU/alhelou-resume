@@ -1,0 +1,22 @@
+button{
+    color: #263145d2;
+    font-size: xx-large;
+}
+button:hover{
+    color: #263145;
+    font-size: xx-large;
+}
+
+.modal-dialog {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0em;
+    margin-right: 0;
+  }
+  
+  .modal-content {
+    width: 100vw;
+    border-radius: 0;
+    border: 5px solid #263145;
+  }
