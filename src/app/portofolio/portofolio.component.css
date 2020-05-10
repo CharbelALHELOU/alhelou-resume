@@ -23,6 +23,10 @@
   font-size: xx-large;
 }
 
+.follow{
+  background-color: #263145a6;
+}
+
 .portfolio-description{
   position: absolute;
   top: 50%;

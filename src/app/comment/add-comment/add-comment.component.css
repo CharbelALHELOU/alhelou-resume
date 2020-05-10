@@ -1,0 +1,54 @@
+#posted{
+    opacity: 0;
+    transition: all 900ms ease;
+}
+
+.visible{
+    opacity: 1;
+}
+
+.send{
+    border: 2px solid goldenrod;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: goldenrod;
+  }
+
+  
+  textarea{
+    overflow: auto;
+    line-height: inherit !important;
+    resize: vertical;
+  }
+  
+  .text-danger{
+    margin-bottom: 0;
+    opacity: 0;
+  }
+  
+  .form-group{
+    padding-bottom: 0 !important;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .col-12:last-child{
+    margin-bottom: 8px;
+  }
+  
+  .visible{
+    opacity: 1 !important;
+  }
+  
+  
+  
+  .form-control{
+    border: 3px solid #263145;
+   
+  }
+  
+  label{
+    color: orange;
+    text-transform: uppercase;
+  }
+  

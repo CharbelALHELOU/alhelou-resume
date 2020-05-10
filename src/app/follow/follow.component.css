@@ -1,0 +1,20 @@
+.follow-me{
+    text-shadow: 10px 5px 0 goldenrod;
+  }
+  
+  
+  a > i{
+    font-size: 10vw;
+    color: whitesmoke;
+    text-shadow: 5px 5px 0 #263145;
+  }
+  
+  a > i:hover{
+    text-shadow: 5px 5px 0 goldenrod;
+  }
+
+  h1{
+    text-transform: uppercase;
+    font-family: 'Anton';
+    text-shadow: none;
+  }

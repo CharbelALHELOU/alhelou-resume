@@ -1,8 +1,4 @@
-<div *ngIf="submitted" class="alert alert-success">
-    <h6>Thank you for your message!</h6>
-</div>
-
-<div class="container-fluid text-center p-5" >
+<div class="container-fluid pt-5 text-center " >
     <form autocomplete="off" #form="ngForm"  (ngSubmit)="processForm(form.value); form.reset()">
         <div class="row">
             <div class="col-md-4 ">
@@ -46,17 +42,11 @@
             </div>
     </form>
     <div class="row pt-3">
-        <div class="col-12 text-uppercase">
+        <div class="col-12 text-uppercase golden">
             <i class="far fa-envelope"></i>  charbel.alhelou@ensta-paris.fr
         </div>
     </div>
+    <div id="posted" class="alert alert-success">
+        <h6>Thank you for your message!</h6>
+    </div>
 </div>
-
-
-  <!--
-      <ul class="m-3">
-        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-    </ul>
-  -->

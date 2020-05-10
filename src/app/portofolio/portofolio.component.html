@@ -1,4 +1,4 @@
-<section class="section" id="portfolio">
+<section class="section py-5 px-3" id="portfolio">
     <div class="container">
         <div class="row text-center">
             <div class="col-12">
@@ -7,7 +7,7 @@
         </div>
         <div class="row">
             <div class="col-xl-4 mb-4" *ngFor="let item of items; let first = first; let index = index;">
-                <div class="portfolio-item p-1" (click)="changeStatus(item.id)" id="{{item.id}}" [class.open]='status[item.id]'>
+                <div class="portfolio-item h-100 p-1" (click)="changeStatus(item.id)" id="{{item.id}}" [class.open]='status[item.id]'>
                     <img class="img-fluid" src="{{item.img[0]}}" alt=""/>
                     <div class="portfolio-title">
                         {{item.title}}
@@ -19,7 +19,7 @@
                         <div class="portfolio-title">{{item.title}}</div>
                         {{item.caption}}<br>
                         <div class="more-info">
-                            <a class="btn" [routerLink]="['portfolio',item.id]" >Learn More</a>
+                            <a class="btn" [routerLink]="item.id" >Learn More</a>
                             <a class="btn" href="{{item.url}}" >Check GitHub</a>
                         </div>
                     </div>
@@ -31,3 +31,7 @@
 </section>
 
 <app-comment></app-comment>
+
+<section class="py-5 mb-5 px-3">
+    <app-follow></app-follow>
+</section>

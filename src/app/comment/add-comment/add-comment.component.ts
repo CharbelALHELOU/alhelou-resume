@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Comment } from 'src/app/models/comment';
-import { InfoService } from 'src/app/services/info.service';
+import { MessagesService } from 'src/app/services/messages.service';
 
 @Component({
   selector: 'app-add-comment',
@@ -9,11 +9,23 @@ import { InfoService } from 'src/app/services/info.service';
 })
 export class AddCommentComponent implements OnInit {
 
-  items: Comment[];
-  constructor(private service: InfoService) { }
+  comment: Comment = new Comment();
+  submitted: boolean=false;
+  @Output() update: EventEmitter<boolean> = new EventEmitter<boolean>();
+
+  constructor(private service: MessagesService) {
+  }
 
   ngOnInit(): void {
     
+  }
+
+  processForm(comment : Comment){
+    this.service.addComment( comment ).subscribe((comment: Comment) => {
+      this.update.emit(true);
+     })
+    document.getElementById('posted').classList.add('visible');
+    this.submitted = true;
   }
 
 }

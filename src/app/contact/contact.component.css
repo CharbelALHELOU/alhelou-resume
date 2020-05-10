@@ -10,9 +10,6 @@ h1{
   font-size: 5vw;
 }
 
-@media (min-width: 992px){
-}
-
 .send{
   border: 2px solid green;
   margin-right: 5px;
@@ -72,4 +69,13 @@ textarea{
 label{
   color: orange;
   text-transform: uppercase;
+}
+
+#posted{
+  opacity: 0;
+  transition: all 900ms ease;
+}
+
+section{
+  height: 95vh;
 }

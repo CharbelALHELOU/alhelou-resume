@@ -1,1 +1,23 @@
-<p>add-comment works!</p>
+
+
+<div class="container-fluid text-center p-0 pb-5 px-5" >
+    <form autocomplete="off" #form="ngForm"  (ngSubmit)="processForm(form.value); form.reset()">
+        <div class="row">
+            <div class="col-12 ">
+
+                <div class="form-group">
+                    <label for="text">comment*</label>
+                    <textarea  class="form-control" id="message"  required [(ngModel)]="comment.text"  #text="ngModel" name="text"></textarea>
+                </div>
+            </div>
+            
+        </div>
+        <div class="btn-group">
+            <button class="btn send" type="submit" [disabled]="form.invalid">Post</button>
+            </div>
+    </form>
+    <div id="posted" class="alert alert-success mt-2">
+        <h6>Thank you for your comment!</h6>
+    </div>
+</div>
+

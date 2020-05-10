@@ -35,23 +35,8 @@ h1{
   }
 }
 
-
-.follow-me{
-  text-shadow: 10px 5px 0 goldenrod;
-}
-
 .follow{
   background-color: #263145a6;
-}
-
-a > i{
-  font-size: 10vw;
-  color: whitesmoke;
-  text-shadow: 5px 5px 0 #263145;
-}
-
-a > i:hover{
-  text-shadow: 5px 5px 0 goldenrod;
 }
 
 .fa-basketball-ball{

@@ -21,6 +21,7 @@ export class ContactComponent implements OnInit {
 
   processForm(msg: Msg){
     console.log(msg);
+    document.getElementById('posted').classList.add('visible');
     this.messenger.addMsg( msg ).subscribe((msg: Msg) => { })
     this.submitted = true;
   }
