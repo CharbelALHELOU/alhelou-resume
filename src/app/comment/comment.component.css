@@ -1,12 +1,11 @@
 section{
-    height: 400px;
+    height: 300px;
     color: goldenrod;
 }
 
 .container-fluid{
     border: 2px solid goldenrod;
     overflow: scroll;
-    border-radius: 30px;
     background-size: cover;
     text-transform: uppercase;
     background-color: rgba(255,255,255,0.08);
@@ -35,4 +34,9 @@ h1{
 
 p{
     font-size: small;
+}
+
+.comment{
+    background-color: whitesmoke;
+    border-radius: 30px;
 }

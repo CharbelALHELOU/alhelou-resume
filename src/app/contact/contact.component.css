@@ -14,14 +14,16 @@ h1{
   border: 2px solid green;
   margin-right: 5px;
   border-radius: 5px;
-  color: green;
+  color: #263145;
+  background-color: lightgreen;
 }
 
 .reset{
   border: 2px solid crimson;
   margin-left: 5px;
   border-radius: 5px;
-  color: crimson;
+  color: #263145;
+  background-color: lightcoral;
 }
 
 #message{

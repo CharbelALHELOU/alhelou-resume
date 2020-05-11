@@ -8,15 +8,11 @@ button:hover{
 }
 
 .modal-dialog {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0em;
-    margin-right: 0;
+    width: 80vw;
   }
   
   .modal-content {
-    width: 100vw;
+    width: 100%;
     border-radius: 0;
     border: 5px solid #263145;
   }

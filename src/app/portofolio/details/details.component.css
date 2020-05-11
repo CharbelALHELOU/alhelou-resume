@@ -1,0 +1,11 @@
+a{
+    padding: 3px 7px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 3px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: teal;
+}

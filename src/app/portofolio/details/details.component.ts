@@ -12,9 +12,9 @@ import { PortofolioItem } from 'src/app/models/portofolio-item';
 export class DetailsComponent implements OnInit {
 
   id: number;
-  item: PortofolioItem;
+  item: PortofolioItem = new PortofolioItem();
   routeSub: Subscription;
-  more: boolean = false;
+  more: boolean = true;
 
   constructor(private activatedRoute: ActivatedRoute,
     private service: InfoService) { }
@@ -30,6 +30,7 @@ export class DetailsComponent implements OnInit {
     this.service.getPortfolioItem(this.id)
     .subscribe((items :PortofolioItem[]) => {
       this.item = items[0];
+      console.log(this.item);
     })
   }
 

@@ -17,13 +17,15 @@ body{
   }
 
 h1{
-  font-size: 10vw;
+  font-size: 11.5vw;
   font-family: 'Play';
   margin: 0;
   text-shadow: 12px 5px 0 #0a0e27;
 }
 
-
+a:hover{
+  cursor: pointer;
+}
 
 .golden{
   color: goldenrod !important;

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-12">
-                <h1 class="text-uppercase">Portfolio</h1>
+                <h1 class="text-uppercase text-white">Portfolio</h1>
             </div>
         </div>
         <div class="row">
@@ -19,8 +19,8 @@
                         <div class="portfolio-title">{{item.title}}</div>
                         {{item.caption}}<br>
                         <div class="more-info">
-                            <a class="btn" [routerLink]="item.id" >Learn More</a>
-                            <a class="btn" href="{{item.url}}" >Check GitHub</a>
+                            <a class="btn" [routerLink]="item.id" >Details</a>
+                            <a class="btn" href="{{item.url}}" >GitHub</a>
                         </div>
                     </div>
                     

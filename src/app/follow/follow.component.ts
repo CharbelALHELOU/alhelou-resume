@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { IFollowLangSet, ILangSet } from '../constants';
+import { LangService } from '../services/lang.service';
 
 @Component({
   selector: 'app-follow',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FollowComponent implements OnInit {
 
-  constructor() { }
+  translation:IFollowLangSet = null;  
+  constructor(private lang:LangService) { }
 
   ngOnInit(): void {
+    this.lang.translation$.subscribe((t:ILangSet) => {
+      this.translation= t.follow;
+    })
   }
-
 }

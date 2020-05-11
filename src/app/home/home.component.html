@@ -1,37 +1,63 @@
-<section class="py-5 px-4">
-    <div class="container-fluid pt-5">
+<!--Home section-->
+<section class="py-5 px-4 ">
+    <div class="container-fluid pt-3">
         <div class="row">
-            <div class="col-xl-6" align='center'>
-                <img  class="img-fluid avatar" id="avatar" src="../../assets/avatar.png" alt="">
+            <div class="col-xl-6 " align='center'>
+                <img  class="img-fluid avatar" id="avatar" src="../../assets/photo-id.jpeg" alt="">
             </div>
             <div class="col-xl-6 pt-5 px-0 mx-0 my-auto text-center">
                 <h1 class=" text-white">
                     <app-typewriter class="title" message="Charbel alhelou"></app-typewriter>
                 </h1>
-                <p class="golden f">I'm a fourth year student at ENSTA Paris, majoring in Architecture and Security of Information Systems.</p>
+                <p class="golden f">{{translation.caption}}</p>
             </div>
         </div>
     </div>
 </section>
 
-<app-skills></app-skills>
+<!--Skills section-->
+<section class="pt-5 pb-2 px-3">
+    <div class="container-fluid skills text-center py-3 px-5">
+        <div class="row">
+            <div class="col-md-6 py-3" id="left">
+                <h5>{{translation.languages}}</h5>
+                <app-stat value=10 name={{translation.arabic}}></app-stat>
+                <app-stat value=10 name={{translation.french}}></app-stat>
+                <app-stat value=9 name={{translation.english}}></app-stat>
+                <app-stat value=4 name={{translation.spanish}}></app-stat>
+            </div>
+            <div class="col-md-6 py-3">
+                <h5>{{translation.ITSkills}}</h5>
+                <app-stat value=9 name="Python"></app-stat>
+                <app-stat value=9 name="C/C++"></app-stat>
+                <app-stat value=9 name="HTML/CSS/JS"></app-stat>
+                <app-stat value=8 name="Java"></app-stat>
+                <app-stat value=7 name="OCaml"></app-stat>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Exp section-->
 <app-experience></app-experience>
 
+
+<!--Follow section-->
 <section class="py-5 px-3 border-top border-bottom follow">
     <app-follow></app-follow>
 </section>
 
 
-
+<!--Hobbies section-->
 <section class="py-5 px-3">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 text-center text-white pb-5">
-                <h2>HOBBIES</h2>
+            <div class="col-12 text-center text-uppercase text-white pb-5">
+                <h2>{{translation.hobbies}}</h2>
             </div>
         </div>
         <div class="row px-sm-5">
-            <div class="col-sm-6 p-sm-5">
+            <div class="col-sm-6">
                 <div class="container-fluid border card p-5">
                     <div class="row border-bottom py-0 text-center">
                         <div class="col-12">
@@ -42,23 +68,23 @@
                         <div class="col-4 logo text-center">
                             <i class="fas fa-trophy"></i>
                         </div>
-                        <div class="col-8 caption">1st Lebanese high school championship 2016</div>
+                        <div class="col-8 caption">{{translation.basket}}</div>
                     </div>
                     <div class="row pt-1 border-bottom more">
                         <div class="col-4 logo text-center">
                             <i class="far fa-clipboard"></i>
                         </div>
-                        <div class="col-8 caption">Coach for juniors</div>
+                        <div class="col-8 caption">{{translation.coach}}</div>
                     </div>
                     <div class="row pt-1 border-bottom more">
                         <div class="col-4 logo text-center">
                             <i class="fas fa-tshirt"></i>
                         </div>
-                        <div class="col-8 caption">Lebanese 3rd Division 2017-2018</div>
+                        <div class="col-8 caption">{{translation.player}}</div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 p-sm-5">
+            <div class="col-sm-6">
                 <div class="container-fluid border h-100 card p-5">
                     <div class="row border-bottom py-0 text-center">
                         <div class="col-12">
@@ -69,16 +95,17 @@
                         <div class="col-4 logo text-center">
                             <i class="fas fa-guitar"></i>
                         </div>
-                        <div class="col-8 caption">4 years</div>
+                        <div class="col-8 caption">{{translation.guitar}}</div>
                     </div>
                     <div class="row pt-1 border-bottom more">
                         <div class="col-4 logo text-center">
                             <i class="fas fa-music"></i>
                         </div>
-                        <div class="col-8 caption"><strong>Piano</strong> 7 years</div>
+                        <div class="col-8 caption"><strong>Piano</strong> {{translation.piano}}</div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+

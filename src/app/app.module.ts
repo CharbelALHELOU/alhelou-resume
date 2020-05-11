@@ -12,13 +12,13 @@ import { ExperienceComponent } from './experience/experience.component';
 import { TypewriterComponent } from './typewriter/typewriter.component';
 import { FormsModule } from '@angular/forms';
 import { StatComponent } from './stat/stat.component';
-import { SkillsComponent } from './skills/skills.component';
 import { DetailsComponent } from './portofolio/details/details.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { ContactModalComponent } from './contact-modal/contact-modal.component';
 import { CommentComponent } from './comment/comment.component';
 import { AddCommentComponent } from './comment/add-comment/add-comment.component';
 import { FollowComponent } from './follow/follow.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 
@@ -35,12 +35,12 @@ import { FollowComponent } from './follow/follow.component';
     ExperienceComponent,
     TypewriterComponent,
     StatComponent,
-    SkillsComponent,
     DetailsComponent,
     ContactModalComponent,
     CommentComponent,
     AddCommentComponent,
-    FollowComponent
+    FollowComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,

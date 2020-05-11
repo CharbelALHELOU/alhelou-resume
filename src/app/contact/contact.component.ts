@@ -1,6 +1,8 @@
 import { Component, OnInit} from '@angular/core';
 import { Msg } from 'src/app/models/msg';
 import { MessagesService } from 'src/app/services/messages.service';
+import { LangService } from '../services/lang.service';
+import { IContactLangSet, ILangSet } from '../constants';
 
 @Component({
   selector: 'app-contact',
@@ -9,13 +11,17 @@ import { MessagesService } from 'src/app/services/messages.service';
 })
 export class ContactComponent implements OnInit {
 
+  translation: IContactLangSet = null;
   msg: Msg = new Msg();
   submitted: boolean = false;
 
-  constructor( private messenger: MessagesService) {
+  constructor( private messenger: MessagesService, private lang: LangService) {
    }
 
   ngOnInit(): void {
+    this.lang.translation$.subscribe((t:ILangSet) => {
+      this.translation= t.contact
+    })
   }
 
 

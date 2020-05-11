@@ -1,10 +1,10 @@
 @keyframes shadow-pulse
 {
   0% {
-    box-shadow: 0 0 0 0px rgba(255, 217, 0, 0.171);
+    box-shadow: 0 0 0 0px #263145;
   }
   100% {
-    box-shadow: 0 0 0 2vh rgba(218, 165, 32, 0.199);
+    box-shadow: 0 0 0 2vh #263145;
   }
 }
 
@@ -13,7 +13,7 @@ f{
 }
 
 .avatar{
-    border-radius: 50%;
+    border-radius: 48%;
     animation: shadow-pulse 950ms infinite;
     border: 2px solid #263145;
 }
@@ -24,16 +24,7 @@ h1{
   text-shadow: none;
 }
 
-@media(min-height: 768px){
-  section:first-child{
-    height: 100vh;
-  }
-  .container-fluid{
-    position: relative;
-    top:50%;
-    transform: translateY(-50%);
-  }
-}
+
 
 .follow{
   background-color: #263145a6;
@@ -92,4 +83,24 @@ ul{
 }
 .fa-guitar{
   color: rgb(94, 25, 25);
+}
+
+
+.skills{
+  background-color: rgba(255, 255, 255,1);
+  height: 100%;
+  z-index: 3;
+  border-radius: 20px;
+  border: 5px solid #263145;
+}
+
+h5{
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+@media(min-width: 768px){
+  #left{
+      border-right: 1px solid  ;
+  }
 }

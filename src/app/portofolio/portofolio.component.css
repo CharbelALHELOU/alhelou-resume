@@ -62,9 +62,7 @@
 }
 
 h1{
-  color: lightgray;
   margin-bottom: 10px;
-  font-size: 8vw;
 }
 
 .portfolio-item > i{
@@ -103,6 +101,7 @@ h1{
 
 .btn{
   color: #263145 !important;
+  border: 1px solid #263145;
   font-size: small;
 }
 

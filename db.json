@@ -7,7 +7,7 @@
       "title": "Tetris",
       "img": [
         "../../../assets/tetrislogo.png",
-        "../../assets/tetris1.png",
+        "../../../assets/tetris1.png",
         "../../assets/tetris2.png",
         "../../assets/tetris3.png"
       ],
@@ -19,9 +19,9 @@
       "description": "This project is for IN104 a OOP course in Python, me and my friend we coded an IA that is able to get a nearly perfect score using the hat guessing strategy",
       "title": "Hanabi",
       "img": [
-        "../../../assets/hanabilogo.jpeg",
-        "../../assets/hanabi1.png",
-        "../../assets/hanabi2.png"
+        "../../assets/hanabilogo.jpeg",
+        "../assets/hanabi1.png",
+        "/../assets/hanabi2.png"
       ],
       "url": "https://github.com/CharbelALHELOU/hanabi"
     },
@@ -73,23 +73,86 @@
       "description": "Developing a mobility solution for the 2024 Olympic Games to reduce its environmental impact.We proposed a new efficient way to park and charge the car."
     }
   ],
-  "messages": [],
-  "comments": [
+  "messages": [
     {
-      "text": "jyhgdfsasdfghklj;kjhgfds",
+      "name": "charbel",
+      "tel": "0123456789",
+      "email": "dfgh@ghj.fr",
+      "message": "swdefrgthyjgukh",
       "id": 1
     },
     {
-      "text": "fdghjkl;iuytdtfguhij",
+      "name": "charbel",
+      "tel": "0123456789",
+      "email": "hh@hh.hh",
+      "message": "hi",
       "id": 2
     },
     {
-      "text": "hfgjkljhg\nklhjdk;kdf\ncziuuyzkz",
+      "name": "charbel",
+      "tel": "0123456789",
+      "email": "hh@hh.hh",
+      "message": "hi again",
       "id": 3
     },
     {
-      "text": "haha\n",
+      "name": "gg",
+      "tel": "1111111111",
+      "email": "hh@hh.hh",
+      "message": "rfffff",
       "id": 4
+    },
+    {
+      "name": "cc",
+      "tel": "0123456789",
+      "email": "hh@hh.ff",
+      "message": "dfghjkl",
+      "id": 5
+    },
+    {
+      "name": "fg",
+      "tel": "1234567890",
+      "email": "hh@hh.ff",
+      "message": "ewrthygjuk",
+      "id": 6
+    },
+    {
+      "name": "dfghj",
+      "tel": "0123456789",
+      "email": "hh@hh.hh",
+      "message": "ewrgthjuk",
+      "id": 7
+    },
+    {
+      "name": "hgfd",
+      "tel": "0123456789",
+      "email": "hh@hh.hh",
+      "message": "wergthj",
+      "id": 8
+    },
+    {
+      "name": "ccc",
+      "tel": "0123456789",
+      "email": "hh@hh.hh",
+      "message": "werfghjkl",
+      "id": 9
+    },
+    {
+      "name": "sdfgh",
+      "tel": "0147852369",
+      "email": "hhh@hh.hh",
+      "message": "edrtfgyhujik",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "text": "hi my name is charbel i worked with charbel aka me he's a very cool guy sweet and intelligent ",
+      "id": 1
+    },
+    {
+      "text": "HI MY NAME IS CHARBEL I WORKED WITH CHARBEL AKA ME HE'S A VERY COOL GUY SWEET AND INTELLIGENT\n",
+      "id": 2
     }
   ]
 }
